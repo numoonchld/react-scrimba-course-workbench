@@ -7,3 +7,5 @@ USER node
 EXPOSE 3000
 
 ENTRYPOINT /bin/bash
+
+CMD cd todo-app && npm start
